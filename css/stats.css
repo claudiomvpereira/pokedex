@@ -1,7 +1,12 @@
 .base-stats {
+  display: none;
   margin-top: 20px;
   font-size: 25px;
   font-weight: 600;
+}
+
+.base-stats.active {
+  display: block;
 }
 
 .stats-container {

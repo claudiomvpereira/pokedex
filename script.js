@@ -6,6 +6,7 @@ const numberContainer = document.querySelector(".number-container");
 const typesContainer = document.querySelector(".types-container");
 const abilitiesContainer = document.querySelector(".abilities-container");
 const statsContainer = document.querySelector(".stats-container");
+const statsActive = document.querySelector(".base-stats");
 
 searchButton.addEventListener("click", handleClick);
 
@@ -16,6 +17,7 @@ async function handleClick(event) {
   if (pokemonData) {
     clearContainers();
     displayPokemonInfo(pokemonData);
+    statsActive.classList.add("active");
     pokemonInput.value = "";
   }
 }
