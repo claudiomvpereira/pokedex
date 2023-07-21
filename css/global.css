@@ -24,3 +24,15 @@ img {
   border-radius: 1000px;
   height: 900px;
 }
+
+footer {
+  margin-top: 40px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media (max-width: 490px) {
+  .container-main {
+    height: 800px;
+  }
+}
