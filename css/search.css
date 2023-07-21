@@ -38,3 +38,10 @@
 #btnPokemon:hover {
   background-color: #3b3b3b;
 }
+
+@media (max-width: 600px) {
+  #pokemon {
+    width: 200px;
+    font-size: 20px;
+  }
+}
