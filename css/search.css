@@ -1,5 +1,5 @@
 #nomePokemon {
-  margin-top: 5px;
+  margin-top: 30px;
   position: relative;
   gap: 10px;
   justify-content: center;
@@ -11,7 +11,7 @@
   width: 300px;
   border: solid 2px #525252;
   border-radius: 2px;
-  margin-right: 2px;
+  margin-right: 10px;
   font-family: "VT323", monospace;
   text-align: center;
   color: #252525;

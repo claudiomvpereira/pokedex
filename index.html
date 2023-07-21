@@ -13,19 +13,20 @@
 
 <body>
 
+  <div class="container-header">
+    <header>
+      <img class="poke-icon" src="./assets/pokeball-icon.png" alt="">
+      <img class="logo" src="/assets/pokedex-logo.png" alt="">
+      <img class="poke-icon" src="./assets/pokeball-icon.png" alt="">
+    </header>
+  </div>
+
+  <form id="nomePokemon">
+    <input type="text" name="pokemon" id="pokemon" placeholder="Type the Pokémon name">
+    <button id="btnPokemon"><img src="/assets/search-icon.png" alt=""></button>
+  </form>
+
   <div class="container-main">
-
-    <div class="container-header">
-      <header>
-        <img class="logo" src="/assets/pokedex-logo.png" alt="">
-      </header>
-    </div>
-
-    <form id="nomePokemon">
-      <input type="text" name="pokemon" id="pokemon" placeholder="Type the Pokémon name">
-      <button id="btnPokemon"><img src="/assets/search-icon.png" alt=""></button>
-    </form>
-
     <div class="image-container"></div>
     <div class="name-container"></div>
     <div class="number-container"></div>
@@ -36,6 +37,11 @@
   </div>
 
   <footer>© 2023 / Cláudio Pereira / Todos os direitos reservados.</footer>
+
+
+
+
+
   <script src="script.js"></script>
 </body>
 
