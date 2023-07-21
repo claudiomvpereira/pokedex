@@ -1,0 +1,40 @@
+#nomePokemon {
+  margin-top: 5px;
+  position: relative;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#pokemon {
+  height: 40px;
+  width: 300px;
+  border: solid 2px #525252;
+  border-radius: 2px;
+  margin-right: 2px;
+  font-family: "VT323", monospace;
+  text-align: center;
+  color: #252525;
+  background-color: #ffffff;
+  font-size: 25px;
+}
+
+#pokemon::placeholder {
+  color: #cecece;
+}
+
+#btnPokemon {
+  position: absolute;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: #8b8b8b;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+#btnPokemon:hover {
+  background-color: #3b3b3b;
+}

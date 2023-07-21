@@ -1,0 +1,162 @@
+.pokemon-image {
+  height: 250px;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name-container {
+  margin-top: 10px;
+  font-size: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  font-size: 25px;
+  background-color: #252525;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.types-container,
+.abilities-container {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.normal,
+.fire,
+.water,
+.grass,
+.flying,
+.fighting,
+.poison,
+.electric,
+.ground,
+.rock,
+.psychic,
+.ice,
+.bug,
+.ghost,
+.steel,
+.dragon,
+.dark,
+.fairy {
+  color: #ffffff;
+  width: 100px;
+  margin-top: 5px;
+  border: 2px solid;
+  border-radius: 2px;
+  padding: 2px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.normal {
+  border-color: #babbac;
+  background-color: #babbac;
+}
+
+.fire {
+  border-color: #f05747;
+  background-color: #f05747;
+}
+
+.water {
+  border-color: #6aa8db;
+  background-color: #6aa8db;
+}
+
+.grass {
+  border-color: #9dcf70;
+  background-color: #9dcf70;
+}
+
+.flying {
+  border-color: #839ed3;
+  background-color: #839ed3;
+}
+
+.fighting {
+  border-color: #a85641;
+  background-color: #a85641;
+}
+
+.poison {
+  border-color: #a95ca0;
+  background-color: #a95ca0;
+}
+
+.electric {
+  border-color: #fce53f;
+  background-color: #fce53f;
+}
+
+.ground {
+  border-color: #ebca56;
+  background-color: #ebca56;
+}
+
+.rock {
+  border-color: #cdbc71;
+  background-color: #cdbc71;
+}
+
+.psychic {
+  border-color: #f068a8;
+  background-color: #f068a8;
+}
+
+.ice {
+  border-color: #a5ddee;
+  background-color: #a5ddee;
+}
+
+.bug {
+  border-color: #c1d130;
+  background-color: #c1d130;
+}
+
+.ghost {
+  border-color: #7673b6;
+  background-color: #7673b6;
+}
+
+.steel {
+  border-color: #c6c2db;
+  background-color: #c6c2db;
+}
+
+.dragon {
+  border-color: #7972b5;
+  background-color: #7972b5;
+}
+
+.dark {
+  border-color: #8e6956;
+  background-color: #8e6956;
+}
+
+.fairy {
+  border-color: #dfb0d2;
+  background-color: #dfb0d2;
+}
+
+.ability {
+  width: 150px;
+  margin-top: 5px;
+  border: 2px solid #252525;
+  border-radius: 2px;
+  background-color: #252525;
+  color: #ffffff;
+  padding: 2px;
+}
