@@ -12,17 +12,17 @@ header {
   padding: 5px;
   align-items: center;
   max-width: 100%;
-  gap: 20px;
-}
-
-.pokeball {
-  display: block;
-  max-width: 50px;
-  max-height: 50px;
 }
 
 .logo {
   display: block;
-  max-width: 220px;
-  max-height: 220px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    max-width: 100px;
+    max-height: 100px;
+  }
 }
