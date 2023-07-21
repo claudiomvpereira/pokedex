@@ -160,7 +160,7 @@
 }
 
 .ability {
-  width: 120px;
+  width: 150px;
   margin-top: 5px;
   border: 2px solid #252525;
   border-radius: 2px;
@@ -185,6 +185,10 @@
 
   .types-container,
   .abilities-container {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .ability {
+    width: 130px;
   }
 }
